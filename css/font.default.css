@@ -1,0 +1,179 @@
+/*	Font Default - 适配思源黑体(Noto Sans SC)
+----------------------------------------------------- */
+
+/*	Font Base - 使用Noto Sans SC替代原有字体
+----------------------------------------------------- */
+.tl-timeline {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.tl-timeline h1,
+.tl-timeline h2,
+.tl-timeline h3,
+.tl-timeline h4,
+.tl-timeline h5,
+.tl-timeline h6 {
+  font-family: 'Noto Sans SC', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; /* 使用字重700代替Bold字体 */
+  font-size: 46px;
+  line-height: 1.3;
+  margin-bottom: 0.8em;
+}
+
+.tl-timeline h2.tl-headline-title {
+  font-size: 84px;
+  line-height: 84px;
+  font-weight: 700;
+}
+
+.tl-timeline p {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 12px 0;
+}
+
+.tl-timeline ul {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.tl-timeline .tl-media .tl-media-wikipedia h4 a,
+.tl-timeline .tl-media h4,
+.tl-timeline .tl-media h4 a {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+.tl-timeline .tl-caption,
+.tl-timeline .tl-credit {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.tl-timeline .vcard {
+  font-family: 'Noto Sans SC', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-previous,
+.tl-timeline .tl-message,
+.tl-timeline .tl-timegroup-message {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tl-timeline .tl-slidenav-next .tl-slidenav-title,
+.tl-timeline .tl-slidenav-previous .tl-slidenav-title,
+.tl-timeline .tl-message .tl-slidenav-title,
+.tl-timeline .tl-timegroup-message .tl-slidenav-title {
+  line-height: 1.3em !important;
+}
+
+.tl-timeline .tl-headline-date,
+.tl-timeline h3.tl-headline-date {
+  font-family: 'Noto Sans SC', sans-serif !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+}
+
+.tl-timeline .tl-headline-date small,
+.tl-timeline h3.tl-headline-date small {
+  font-weight: 400 !important;
+}
+
+.tl-timeline .tl-timenav-slider {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+}
+
+.tl-timeline .tl-timenav-slider h2.tl-headline {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.tl-timeline .tl-timenav-slider .tl-timeaxis {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tl-timeline .tl-menubar {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.tl-timeline blockquote,
+.tl-timeline blockquote p {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+input[type="text"].editor-headline {
+  font-family: 'Noto Sans SC', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 46px;
+}
+
+.tl-timeline .tl-timenav-slider .tl-timeaxis {
+  font-weight: normal;
+}
+
+/* 新增：标题与正文间距调整 */
+.tl-timeline .tl-slide-content .tl-headline {
+  margin-bottom: 25px !important;
+  font-size: 32px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+}
+
+.tl-timeline .tl-slide-content .tl-text {
+  margin-top: 20px !important;
+}
+
+.tl-timeline .tl-text p {
+  margin: 15px 0 !important;
+  line-height: 1.7em !important;
+  font-weight: 400 !important;
+}
+
+.tl-timeline .tl-text ul, 
+.tl-timeline .tl-text ol {
+  margin: 10px 0 !important;
+  padding-left: 20px !important;
+}
+
+.tl-timeline .tl-text li {
+  margin: 5px 0 !important;
+  line-height: 1.5em !important;
+}
+
+/* 确保覆盖原有样式 */
+.tl-timeline .tl-slide-content-container {
+  padding: 20px 30px !important;
+}
+
+/* 添加备用字体，确保兼容性 */
+.tl-timeline {
+  font-family: 'Noto Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', sans-serif;
+}
+
+.tl-timeline h1,
+.tl-timeline h2,
+.tl-timeline h3,
+.tl-timeline h4,
+.tl-timeline h5,
+.tl-timeline h6 {
+  font-family: 'Noto Sans SC', 'Source Han Sans CN', 'Microsoft YaHei', sans-serif;
+}
